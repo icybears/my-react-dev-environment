@@ -24,7 +24,7 @@ module.exports = {
  ]
 };
 
-the HtmlWebpackPlugin we installed and added as a plugin will take our index.html,
-and create a new index.html inside the dist folder based on that original one,
-and automatically add a script tag to it referencing our index_bundle.js.
+//the HtmlWebpackPlugin we installed and added as a plugin will take our index.html,
+//and create a new index.html inside the dist folder based on that original one,
+//and automatically add a script tag to it referencing our index_bundle.js.
 
