@@ -1,6 +1,7 @@
 
 this is the minimal required install:
-`npm install react react-dom`
+`npm install --save react react-dom`
+and 
 `npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react css-loader style-loader html-webpack-plugin webpack webpack-dev-server`
 
 I also add to that list: `babel-preset-stage-2` which lets me use javascript property initializers. this one is optional though.
