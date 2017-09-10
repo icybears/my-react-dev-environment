@@ -8,7 +8,7 @@ and
 `npm install --save-dev babel-core babel-loader babel-preset-env babel-preset-react css-loader style-loader html-webpack-plugin webpack webpack-dev-server` 
 and additionally `cross-env` if you are on windows. (the use of cross-env is explained in the package.json.md file)
 
-I also add to that list: `babel-plugin-transform-class-properties` which lets me use javascript property initializers. this one is optional though.
+I also add to that list: `babel-plugin-transform-class-properties` which lets me use javascript class properties.
 
 Once you install these presets, you have to add the property "babel" in your `package.json`:
 ```
