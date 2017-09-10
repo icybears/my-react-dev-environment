@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './app/index.js',
+  entry: './app/index.js', /* this is where you have your `reactDOM.render(<App />, domNode);` it is the entry point for webpack*/
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index_bundle.js',
@@ -11,8 +11,8 @@ module.exports = {
   },
   module: {
     rules: [
-        { test: /\.(js)$/, use: 'babel-loader' },
-      { test: /\.css$/, use: ['style-loader', 'css-loader'] }
+        { test: /\.(js)$/, use: 'babel-loader' }, /*looks for any js files and applies babel-loader (i.e transpiles them)*/
+      { test: /\.css$/, use: ['style-loader', 'css-loader'] } 
     ]
   },
   devServer: {
